@@ -1,14 +1,71 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Homework Download Page</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f6f9;
+        margin: 0;
+        padding: 40px 20px;
+        color: #333;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #2c3e50;
+    }
+
+    .download-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .download-list a {
+        display: block;
+        padding: 14px 18px;
+        background-color: #eaf2ff;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #1a4fa3;
+        font-weight: bold;
+        transition: all 0.2s ease;
+    }
+
+    .download-list a:hover {
+        background-color: #d6e7ff;
+        transform: translateY(-2px);
+    }
+</style>
 </head>
-  <body>
- <a href="./L12HW1.pdf">Lesson 12 HW 1</a>   <br/>
- <a href="./L13HW.pdf">Lesson 13 HW</a>   <br/>
- <a href="./L14HW.pdf">Lesson 14 HW 1</a>   <br/>
- <a href="./L15HW.pdf">Lesson 15 HW 1</a>  <br/>
- <a href="./TextbookQuiz3.pdf">TextbookQuiz3</a>
-  </body>
+
+<body>
+
+<div class="container">
+    <h1>Homework Downloads</h1>
+
+    <div class="download-list">
+        <a href="./L12HW1.pdf">📄 Lesson 12 HW 1</a>
+        <a href="./L13HW.pdf">📄 Lesson 13 HW</a>
+        <a href="./L14HW.pdf">📄 Lesson 14 HW 1</a>
+        <a href="./L15HW.pdf">📄 Lesson 15 HW 1</a>
+        <a href="./TextbookQuiz3.pdf">📝 Textbook Quiz 3</a>
+    </div>
+</div>
+
+</body>
 </html>
